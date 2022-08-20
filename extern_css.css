@@ -1,51 +1,35 @@
-#title {font-size:90px; font-family:Gamja Flower; font-weight:bold;}
+#title {font-size:70px;}
 
-body {overflow:hidden;}
-
-#start {background-color:#4B93DB;
+#start {background-color:#4083C6;
         padding:18px 25px;
-        font-size:30px;
-        border-radius:10px;
-        font-family:gaegu;}
+        font-size:25px;
+        border-radius:10px;}
 
-#restart {background-color:#4083C6;
+#restart {background-color:#4B93DB;
           padding:18px 35px;
-          font-size:30px;
+          font-size:25px;
           border-radius:10px;
-          cursor:not-allowed;
-          font-family:gaegu;}
+          cursor:not-allowed;}
 
 #character {text-align:center;
-            font-size:33px;
+            font-size:30px;
             height:38px;
             display:block;
             border-radius:10px;
             vertical-align:center;
             border:2px solid;
             background-color:black;
-            color:white;
-            font-family:gaegu;}
+            color:white;}
 
-#dialog1 {background-color:black; font-size:25px; color:white; font-family:gaegu;}
-#dialog2 {background-color:black; font-size:25px; color:white; font-family:gaegu;}
-#dialog3 {background-color:black; font-size:25px; color:white; font-family:gaegu;}
-.dialog {background-color:black; font-size:25px; color:white; opacity:0.8; font-family:gaegu;}
-
-#next {font-size:35px; font-weight:bold; color:white; width:40px;}
-#next:hover {background-color:lightgrey; color:grey;}
-
+#dialog_top {border-top:3px solid; font-size:25px; background-color:black; color: white; opacity:0.8;}
+#next {font-size:35px; font-weight:bold; color:white;}
 #game_tab1 {border:25px solid black; width:940px; height:600px; background-color:aliceblue; border-radius:8px; display:table-cell; vertical-align:middle;}
 #game_tab2 {border:2px solid grey; width:600px; height:480px; background-color:white; border-radius:5px;}
-
 #tab {border:1px solid black; width:598px; height:25px; background-color:black; border-radius:5px;}
 #x {border:1px solid red; width:18px; height:18px; background-color:red; border-radius:15px; float:left; margin:2px;}
 #m {border:1px solid yellow; width:18px; height:18px; background-color:yellow; border-radius:15px; float:left; margin:2px;}
 #o {border:1px solid green; width:18px; height:18px; background-color:green; border-radius:15px; float:left; margin:2px;}
-
-#game_snake {border:2px solid grey; width:600px; height:480px; background-color:white; border-radius:5px;}
-#game_snake table {vertical-align:center; margin-top:50px; border:2px solid;}
-#game_snake td {width:12px; height:8px;}
-
+#support {background-color:black; vertical-align:bottom; z-index:3;}
 
 .main1 {width:1100px; height:740px;
         position:absolute; left:350px;
@@ -60,10 +44,10 @@ body {overflow:hidden;}
                opacity:0.4;
                z-index:-1;}
 
-.library {width:1100px; height:700px;
+.library {width:1100px; height:740px;
           position:absolute; left:350px;
           border-collapse:collapse;}
-.library::after {width:1100px; height:700px;
+.library::after {width:1100px; height:740px;
                  content:""; background:url("library.jpeg");
                  position:absolute; top:0; left:0;
                  background-position:center;
@@ -113,8 +97,8 @@ body {overflow:hidden;}
               z-index:-1;}
 
 
+.dialog {background-color:black; opacity:0.8;}
 
+h1 {position:relative; left:380px;}
 
-h1 {font-size:35px; position:relative; left:380px;  font-family:gaegu;}
-
-table tr td {width:65px; height:35px;}
+table tr td {width:65px; height:30px;}

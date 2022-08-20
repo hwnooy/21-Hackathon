@@ -1,0 +1,43 @@
+#question {
+  border: solid 1px black;
+  margin: 20px 100px 0 100px;
+  height: 50px;
+  background-color: black;
+}
+#question_text {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 3px;
+}
+#text_balloon {
+  position: relative;
+  border: solid 1px #3060A5;
+  margin: 40px 0;
+  height: 80px;
+  background-color: #3060A5;
+  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  text-align: left;
+  padding-left: 20px;
+}
+label,
+textarea {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 5px;
+    max-width: 100%;
+    height: 40px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}

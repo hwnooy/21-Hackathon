@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>게임 이름</title>
+    <link rel="stylesheet" type="text/css" href="extern_css.css">
+    <link rel="stylesheet" type="text/css" href="game_typing_1.css">
+  </head>
+  <body>
+    <h1>게임 이름</h1>
+    <table class="main1" align="center" width="1000" height="670" >
+      <tr>
+        <td align="center">
+          <div id="game_tab1" align="center">
+            <div id="game_tab2">
+              <div id="tab">
+                <div id="x"></div>
+                <div id="m"></div>
+                <div id="o"></div>
+              </div>
+              <script type = "text/javascript" src="game_typing_1.js"></script>
+              <div id = "question">
+                <div id = "question_text">
+                  <script>
+                    count();
+                  </script>
+                </div>
+                <div id = "text_balloon">
+                  <script>
+                    typing();
+                  </script>
+                </div>
+                <label for="answer">따라서 쳐봐!</label>
+                <textarea id="answer" name="answer" rows="5" cols="700"></textarea>
+                <input type = "button" id = "answer_button" value = "정답 확인" onclick = "tof();">
+              </div>
+            </div>
+          </div>
+       </td>
+    </tr>
+    </table>
+  </body>
+</html>
