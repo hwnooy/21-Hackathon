@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>게임 이름</title>
+    <link rel="stylesheet" type="text/css" href="extern_css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Jua&display=swap" rel="stylesheet">
+
+    <style>
+    button.b1{
+      position:absolute;
+      left: 600px;
+      top: 250px;
+      background-color:white;
+      color: #3060A5;
+      font-size: 70px;
+      z-index:50;
+      width:600px;
+      height:450px;
+      font-weight:bold;
+    }
+    </style>
+
+  </head>
+  <body>
+    <h1>게임 이름</h1>
+    <button class="b1" onclick="start()">누르면 바로<br>게임시작<br><br> Ready?</button>
+    <table class="main1" align="center" width="1000" height="670" >
+      <tr>
+        <td align="center">
+          <div id="game_tab1" align="center">
+            <div id="game_tab2">
+              <div id="tab">
+                <div id="x"></div>
+                <div id="m"></div>
+                <div id="o"></div>
+              </div>
+            </div>
+          </div>
+       </td>
+    </tr>
+    </table>
+    <script>
+      function start(){
+        var times=7;
+        function make_random(){
+          var answer=Math.floor(Math.random()*101);
+          return answer;
+        }
+        var answer = make_random();
+        while(times>=1) {
+          var num= Number(prompt("숫자를 입력하시오."));
+          times=times-1;
+          if(times==0) alert("정답 기회를 다 사용하셨습니다. 정답은 "+answer+"이었습니다. ");
+          else if(num<answer) alert("정답보다 작습니다. "+ times+"번 남았습니다.");
+          else if(num>answer) alert("정답보다 큽니다. "+ times+"번 남았습니다.");
+          else if(num==answer) {
+            alert("축하합니다. 정답입니다.");
+            location.replace('step3_success.html');;       // 진엔딩 루트
+            break;
+          }
+        }
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+table {vertical-align:center;}
+
+td {height: 1px;
+    width: 1px;
+    border-radius: 3px;}
+
+
+#score_ex {height: 40px;
+          width: 463px;
+          font-size: 32px;
+          font-weight: bold;
+          text-align: center;}
+
+#score {height: 40px;
+        width: 463px;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;}
+
+#plus {height: 20px;
+       width: 463px;
+       font-size: 16px;
+       font-weight: bold;
+       text-align: center;}

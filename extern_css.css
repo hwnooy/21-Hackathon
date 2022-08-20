@@ -1,0 +1,120 @@
+#title {font-size:90px; font-family:Gamja Flower; font-weight:bold;}
+
+body {overflow:hidden;}
+
+#start {background-color:#4B93DB;
+        padding:18px 25px;
+        font-size:30px;
+        border-radius:10px;
+        font-family:gaegu;}
+
+#restart {background-color:#4083C6;
+          padding:18px 35px;
+          font-size:30px;
+          border-radius:10px;
+          cursor:not-allowed;
+          font-family:gaegu;}
+
+#character {text-align:center;
+            font-size:33px;
+            height:38px;
+            display:block;
+            border-radius:10px;
+            vertical-align:center;
+            border:2px solid;
+            background-color:black;
+            color:white;
+            font-family:gaegu;}
+
+#dialog1 {background-color:black; font-size:25px; color:white; font-family:gaegu;}
+#dialog2 {background-color:black; font-size:25px; color:white; font-family:gaegu;}
+#dialog3 {background-color:black; font-size:25px; color:white; font-family:gaegu;}
+.dialog {background-color:black; font-size:25px; color:white; opacity:0.8; font-family:gaegu;}
+
+#next {font-size:35px; font-weight:bold; color:white; width:40px;}
+#next:hover {background-color:lightgrey; color:grey;}
+
+#game_tab1 {border:25px solid black; width:940px; height:600px; background-color:aliceblue; border-radius:8px; display:table-cell; vertical-align:middle;}
+#game_tab2 {border:2px solid grey; width:600px; height:480px; background-color:white; border-radius:5px;}
+
+#tab {border:1px solid black; width:598px; height:25px; background-color:black; border-radius:5px;}
+#x {border:1px solid red; width:18px; height:18px; background-color:red; border-radius:15px; float:left; margin:2px;}
+#m {border:1px solid yellow; width:18px; height:18px; background-color:yellow; border-radius:15px; float:left; margin:2px;}
+#o {border:1px solid green; width:18px; height:18px; background-color:green; border-radius:15px; float:left; margin:2px;}
+
+#game_snake {border:2px solid grey; width:600px; height:480px; background-color:white; border-radius:5px;}
+#game_snake table {vertical-align:center; margin-top:50px; border:2px solid;}
+#game_snake td {width:12px; height:8px;}
+
+
+.main1 {width:1100px; height:740px;
+        position:absolute; left:350px;
+        border-collapse:collapse;}
+.main1::after {width:1100px; height:740px;
+               content:""; background:url("4.jpeg");
+               position:absolute; top:0; left:0;
+               background-position:center;
+               border-radius:5px;
+               background-size:cover;
+               background-repeat:no-repeat;
+               opacity:0.4;
+               z-index:-1;}
+
+.library {width:1100px; height:700px;
+          position:absolute; left:350px;
+          border-collapse:collapse;}
+.library::after {width:1100px; height:700px;
+                 content:""; background:url("library.jpeg");
+                 position:absolute; top:0; left:0;
+                 background-position:center;
+                 border-radius:5px;
+                 background-size:contain;
+                 background-repeat:no-repeat;
+                 opacity:0.4;
+                 z-index:-1;}
+
+.square {width:1100px; height:740px;
+         position:absolute; left:350px;
+         border-collapse:collapse;}
+.square::after {width:1100px; height:740px;
+                content:""; background:url("square.jpeg");
+                position:absolute; top:0; left:0;
+                background-position:center;
+                border-radius:5px;
+                background-size:cover;
+                background-repeat:no-repeat;
+                opacity:0.4;
+                z-index:-1;}
+
+.ms_main {width:1100px; height:740px;
+          position:absolute; left:350px;
+          border-collapse:collapse;}
+.ms_main::after {width:1100px; height:740px;
+                 content:""; background:url("ms_main.jpeg");
+                 position:absolute; top:0; left:0;
+                 background-position:center;
+                 border-radius:5px;
+                 background-size:cover;
+                 background-repeat:no-repeat;
+                 opacity:0.4;
+                 z-index:-1;}
+
+.ms_2 {width:1100px; height:740px;
+       position:absolute; left:350px;
+       border-collapse:collapse;}
+.ms_2::after {width:1100px; height:740px;
+              content:""; background:url("ms_2.jpeg");
+              position:absolute; top:0; left:0;
+              background-position:center;
+              border-radius:5px;
+              background-size:cover;
+              background-repeat:no-repeat;
+              opacity:0.4;
+              z-index:-1;}
+
+
+
+
+h1 {font-size:35px; position:relative; left:380px;  font-family:gaegu;}
+
+table tr td {width:65px; height:35px;}

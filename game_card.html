@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>게임 이름</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="extern_css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Jua&display=swap" rel="stylesheet">
+
+    <style>
+    img{
+      width: 80px;
+      height: 90px;
+      z-index:1000;
+      padding:0px;
+      margin:0px;
+      border:0px;
+    }
+  </style>
+
+  </head>
+  <body>
+    <h1>게임 이름</h1>
+    <table class="main1" align="center" width="1000" height="670" >
+      <tr>
+        <td align="center">
+          <div id="game_tab1" align="center">
+            <div id="game_tab2">
+              <div id="tab">
+                <div id="x"></div>
+                <div id="m"></div>
+                <div id="o"></div>
+              </div>
+                <script type="text/javascript" src="card.js"></script>
+            </div>
+          </div>
+          <button>뒤집기</button>
+          <button>감추기</button>
+          <button>섞기</button><br><br>
+       </td>
+    </tr>
+    </table>
+    <div> 두 번 섞고 감추기 누르고 시작해주세요!! </div>
+    <script>
+    setTimeout(function(){
+      alert("제한시간 100초가 지났습니다."),
+      alert("당신은 실패하였습니다.")
+      location.replace('step2_fail.html');;                 // 해고 엔딩 루트
+    },104000)
+    </script>
+
+  </body>
+</html>
